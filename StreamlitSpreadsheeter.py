@@ -44,10 +44,8 @@ base_url='https://www.googleapis.com/customsearch/v1?key='+(API)+'&cx='+(ID)+'&q
 
 
 if API!= 'Fill in your API key' and ID!= 'Fill your Google Custom Search Engine ID' and QUERY!= 'Write your query' and STARTDATE!= 'Fill in your start date, y/m/d, e.g 20230131' and ENDDATE!= 'Fill in your end date, y/m/d, e.g 20231231':
-
-    st.cache_data
     
-    file = open("Testing.csv", "w", newline='')
+    temp.file = open("Testing.csv", "w", newline='')
     header = ['Site', 'Title', 'URL', 'Author', 'Date']
     writer = csv.writer(file)
     writer.writerow(header)
@@ -79,7 +77,7 @@ if API!= 'Fill in your API key' and ID!= 'Fill your Google Custom Search Engine 
             out_rows += 1
 
 
-    file.close()
+    temp.file.close()
 
 
 

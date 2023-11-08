@@ -8,16 +8,18 @@ st.title('Spreadsheeter')
 
 st.header('Turn your Google Custom Search results into a spreadsheet in an instant')
 
+st.write('For demonstration purposes, a temporary API key and Search Engine ID are already filled in for you.')
+
 API=st.text_input(
         "What is your API key?",
-        "Fill in your API key",
+        "AIzaSyBB-UxitlFtIbTMrdcBkNeY44sPa7E9puY",
         key="APIplaceholder",
     )
 
 
 ID=st.text_input(
         'What is your Google Custom Search Engine ID?',
-        "Fill your Google Custom Search Engine ID",
+        "e6e23df52086e4ed7",
         key="IDplaceholder",
     )
 

@@ -1,8 +1,6 @@
 import csv
 import json
 import requests
-import tempfile
-import os
 import streamlit as st
 
 st.title('Spreadsheeter')

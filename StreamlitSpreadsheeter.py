@@ -80,7 +80,7 @@ if API!= 'Fill in your API key' and ID!= 'Fill your Google Custom Search Engine 
             out_rows += 1
 
 
-   tempfile.close()
+       tempfile.close()
 
 
 

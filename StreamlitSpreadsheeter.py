@@ -19,7 +19,7 @@ API=st.text_input(
 
 ID=st.text_input(
         'What is your Google Custom Search Engine ID?',
-        "st.secrets[SE_ID]",
+        "st.secrets["SE_ID"]",
         key="IDplaceholder",
     )
 

@@ -52,7 +52,7 @@ if API!= 'Fill in your API key' and ID!= 'Fill your Google Custom Search Engine 
 
     out_rows = 0
 
-    for i in range(1,10000,10):
+    for i in range(1,1000,10):
         if i == 1:
             url = base_url
         else:

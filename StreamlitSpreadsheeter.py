@@ -43,6 +43,8 @@ ENDDATE=st.text_input(
 
 base_url='https://www.googleapis.com/customsearch/v1?key='+(API)+'&cx='+(ID)+'&q='+(QUERY)+'&sort=date:r:'+(STARTDATE)+':'+(ENDDATE)
 
+print base_url
+
 if API!= 'Fill in your API key' and ID!= 'Fill your Google Custom Search Engine ID' and QUERY!= 'Write your query' and STARTDATE!= 'Fill in your start date, y/m/d, e.g 20230131' and ENDDATE!= 'Fill in your end date, y/m/d, e.g 20231231':
     
     f = StringIO("testing.csv", newline='')
